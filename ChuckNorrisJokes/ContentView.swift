@@ -19,7 +19,7 @@ struct ContentView: View {
                    
                Spacer()
                if viewModel.isLoading {
-                   ProgressView("Loading joke...")
+                   ProgressView("Loading joke..")
                        .padding()
                } else if let errorMessage = viewModel.errorMessage {
                    Text(errorMessage)

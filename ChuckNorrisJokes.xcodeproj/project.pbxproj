@@ -11,6 +11,8 @@
 		418322B52C46B975008BE2B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418322B42C46B975008BE2B1 /* ContentView.swift */; };
 		418322B72C46B976008BE2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418322B62C46B976008BE2B1 /* Assets.xcassets */; };
 		418322BA2C46B976008BE2B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418322B92C46B976008BE2B1 /* Preview Assets.xcassets */; };
+		418322C12C46B985008BE2B1 /* JokesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418322C02C46B985008BE2B1 /* JokesData.swift */; };
+		418322C32C46B996008BE2B1 /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418322C22C46B996008BE2B1 /* JokesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		418322B42C46B975008BE2B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		418322B62C46B976008BE2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418322B92C46B976008BE2B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		418322C02C46B985008BE2B1 /* JokesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesData.swift; sourceTree = "<group>"; };
+		418322C22C46B996008BE2B1 /* JokesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				418322B42C46B975008BE2B1 /* ContentView.swift */,
 				418322B62C46B976008BE2B1 /* Assets.xcassets */,
 				418322B82C46B976008BE2B1 /* Preview Content */,
+				418322C02C46B985008BE2B1 /* JokesData.swift */,
+				418322C22C46B996008BE2B1 /* JokesViewModel.swift */,
 			);
 			path = ChuckNorrisJokes;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				418322B52C46B975008BE2B1 /* ContentView.swift in Sources */,
 				418322B32C46B975008BE2B1 /* ChuckNorrisJokesApp.swift in Sources */,
+				418322C12C46B985008BE2B1 /* JokesData.swift in Sources */,
+				418322C32C46B996008BE2B1 /* JokesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
